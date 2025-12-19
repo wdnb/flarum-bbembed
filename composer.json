@@ -1,0 +1,39 @@
+{
+  "name": "wdnb/flarum-bbembed",
+  "description": "Seamlessly embed bilibili videos in your Flarum forum.",
+  "keywords": [
+    "flarum",
+    "bilibili",
+    "video"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "wdnb",
+      "email": "a@a.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "wdnb\\bbembed\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "bilibili 视频嵌入",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-play-circle",
+        "backgroundColor": "#fb7299", 
+        "color": "#fff"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
