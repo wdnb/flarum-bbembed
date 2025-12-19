@@ -25,6 +25,9 @@ composer require wdnb/flarum-bbembed
 支持的链接示例：
 
 链接类型	链接示例 (直接粘贴即可)
+
 标准 BV 号	https://www.bilibili.com/video/BV1GJ411x7h7
+
 传统 av 号	https://www.bilibili.com/video/av100051812
+
 手机短链接	https://b23.tv/BV1GJ411x7h7
